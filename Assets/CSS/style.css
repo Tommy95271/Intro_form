@@ -83,14 +83,6 @@ input {
 	border-radius: 0.5rem;
 	font-weight: 700;
 	box-sizing: border-box;
-	position: relative;
-}
-
-input[title]:hover::after {
-	content: attr(title);
-	position: absolute;
-	border: 1px solid red;
-	border-radius: 0.5rem;
 }
 
 input.info {
