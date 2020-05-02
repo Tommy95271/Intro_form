@@ -115,10 +115,11 @@ p#terms a {
 	}
 	header {
 		grid-area: header;
+		text-align: left;
 	}
 
 	header p {
-		text-align: left;
+		padding: 0 2rem;
 	}
 
 	section {
