@@ -81,6 +81,10 @@ input[type="submit"] {
 	box-shadow: 0 5px rgba(17, 126, 54, 0.5);
 }
 
+#terms {
+	font-size: 0.5rem;
+}
+
 @media screen and (min-width: 1440px) {
 	#wrapper {
 		display: grid;
