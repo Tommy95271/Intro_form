@@ -68,19 +68,18 @@ input {
 	margin: 0.5em 0;
 	padding: 1rem;
 	border-radius: 0.5rem;
+	font-weight: 700;
 }
 
 input.info {
 	box-sizing: border-box;
 	border: 1px solid var(--Grayish-Blue);
-	font-weight: 700;
 }
 
 input[type="submit"] {
 	text-transform: uppercase;
 	color: white;
 	background: var(--Green);
-	font-weight: 700;
 	border: none;
 	box-shadow: 0 5px rgba(17, 126, 54, 0.5);
 }
