@@ -125,6 +125,7 @@ p#terms a {
 		grid-template-areas: "header section" "header main";
 		align-items: center;
 		margin: 10rem;
+		position: relative;
 	}
 	header {
 		grid-area: header;
