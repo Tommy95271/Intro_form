@@ -44,6 +44,7 @@ section {
 	color: white;
 	text-align: center;
 	line-height: 1.5rem;
+	border-radius: 1rem;
 }
 
 @media screen and (min-width: 1440px) {
