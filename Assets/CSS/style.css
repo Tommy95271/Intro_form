@@ -58,12 +58,15 @@ section span {
 main {
 	background: white;
 	padding: 1rem;
+	border-radius: 0.5rem;
 }
 
 .box {
 	margin: 1rem;
 	border-radius: 0.5rem;
 	box-shadow: 0 5px rgba(0, 0, 0, 0.2);
+	max-width: 35rem;
+	box-sizing: border-box;
 }
 
 input {
