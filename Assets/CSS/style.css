@@ -41,6 +41,9 @@ h2#title span#bottomTitle {
 header p {
 	line-height: 1.5rem;
 	height: 10rem;
+	display: flex;
+	align-items: center;
+	margin: 0;
 }
 
 section {
