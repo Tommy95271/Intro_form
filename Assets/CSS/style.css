@@ -121,6 +121,7 @@ p#terms a {
 		grid-area: header;
 		text-align: left;
 		position: relative;
+		width: 550px;
 	}
 
 	header h2#title {
@@ -130,7 +131,6 @@ p#terms a {
 	}
 
 	header p {
-		width: 550px;
 		padding: 0 2rem;
 		box-sizing: border-box;
 	}
