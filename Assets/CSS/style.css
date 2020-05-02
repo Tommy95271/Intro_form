@@ -120,10 +120,12 @@ p#terms a {
 	header {
 		grid-area: header;
 		text-align: left;
+		position: relative;
 	}
 
 	header h2#title {
 		font-size: 2rem;
+		position: relative;
 	}
 
 	header p {
