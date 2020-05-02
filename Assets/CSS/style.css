@@ -106,6 +106,7 @@ p#terms a {
 		grid-auto-rows: repeat(2, 1fr);
 		grid-template-areas: "header section" "header main";
 		align-items: center;
+		height: 100%;
 	}
 	header {
 		grid-area: header;
