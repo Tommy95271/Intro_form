@@ -111,11 +111,15 @@ p#terms a {
 		grid-auto-rows: 10% 1fr 1fr;
 		grid-template-areas: "header section" "header main";
 		align-items: center;
-		margin: 10%;
+		margin: 10rem;
 	}
 	header {
 		grid-area: header;
 		text-align: left;
+	}
+
+	header div#titleBox {
+		padding-left: 2rem;
 	}
 
 	header h2#title {
@@ -123,7 +127,7 @@ p#terms a {
 	}
 
 	header p {
-		padding: 0 2rem;
+		padding-left: 2rem;
 	}
 
 	section {
