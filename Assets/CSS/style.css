@@ -37,6 +37,10 @@ header p {
 	line-height: 1.5rem;
 }
 
+section {
+	background: var(--Blue);
+}
+
 @media screen and (min-width: 1440px) {
 	#wrapper {
 		display: grid;
