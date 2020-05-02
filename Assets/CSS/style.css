@@ -23,6 +23,7 @@ header {
 	color: white;
 	display: flex;
 	flex-flow: column nowrap;
+	text-align: center;
 }
 
 @media screen and (min-width: 1440px) {
