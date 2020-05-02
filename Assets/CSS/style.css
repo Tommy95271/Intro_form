@@ -116,6 +116,11 @@ p#terms a {
 	header {
 		grid-area: header;
 	}
+
+	header p {
+		text-align: left;
+	}
+
 	section {
 		grid-area: section;
 	}
