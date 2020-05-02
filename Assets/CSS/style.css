@@ -116,7 +116,6 @@ p#terms a {
 	body {
 		height: 500px;
 		overflow: hidden;
-		padding: 0 10rem;
 	}
 
 	#wrapper {
@@ -148,6 +147,7 @@ p#terms a {
 	section {
 		grid-area: section;
 	}
+
 	main {
 		grid-area: main;
 	}
