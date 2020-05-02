@@ -130,7 +130,9 @@ p#terms a {
 	}
 
 	header p {
-		padding-left: 2rem;
+		width: 550px;
+		padding: 0 2rem;
+		box-sizing: border-box;
 	}
 
 	section {
