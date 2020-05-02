@@ -68,6 +68,7 @@ main {
 
 input {
 	width: 100%;
+	max-width: 30rem;
 	outline: none;
 	margin: 0.5em 0;
 	padding: 1rem;
