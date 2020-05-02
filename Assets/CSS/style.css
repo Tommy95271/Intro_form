@@ -33,6 +33,10 @@ header h2 {
 	width: 80%;
 }
 
+header p {
+	line-height: 1.5rem;
+}
+
 @media screen and (min-width: 1440px) {
 	#wrapper {
 		display: grid;
