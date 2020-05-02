@@ -149,9 +149,13 @@ p#terms a {
 
 	section {
 		grid-area: section;
+		position: relative;
+		left: 5rem;
 	}
 
 	main {
 		grid-area: main;
+		position: relative;
+		left: 5rem;
 	}
 }
