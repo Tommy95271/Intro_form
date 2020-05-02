@@ -131,6 +131,7 @@ p#terms a {
 		text-align: left;
 		position: relative;
 		width: 550px;
+		justify-self: center;
 	}
 
 	header h2#title {
