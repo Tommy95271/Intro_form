@@ -57,6 +57,7 @@ main {
 	background: white;
 	margin: 1rem;
 	padding: 1rem;
+	border-radius: 0.5rem;
 }
 
 @media screen and (min-width: 1440px) {
