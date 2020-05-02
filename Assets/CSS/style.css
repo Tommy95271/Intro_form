@@ -17,6 +17,7 @@ body {
 #wrapper {
 	display: flex;
 	flex-flow: column nowrap;
+	margin: 2rem 0;
 }
 
 header {
