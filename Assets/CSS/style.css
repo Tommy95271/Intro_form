@@ -35,7 +35,7 @@ header h2#title {
 }
 
 h2#title span#bottomTitle {
-	display: inline-block;
+	display: block;
 }
 
 header p {
