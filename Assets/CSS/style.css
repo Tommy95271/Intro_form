@@ -53,6 +53,9 @@ section span {
 	font-weight: 700;
 }
 
+main {
+}
+
 @media screen and (min-width: 1440px) {
 	#wrapper {
 		display: grid;
