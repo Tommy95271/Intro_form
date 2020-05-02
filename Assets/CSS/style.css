@@ -54,6 +54,7 @@ section span {
 }
 
 main {
+	background: white;
 }
 
 @media screen and (min-width: 1440px) {
