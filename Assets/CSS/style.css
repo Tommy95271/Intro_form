@@ -21,6 +21,8 @@ body {
 
 header {
 	color: white;
+	display: flex;
+	flex-flow: column nowrap;
 }
 
 @media screen and (min-width: 1440px) {
