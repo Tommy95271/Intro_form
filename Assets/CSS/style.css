@@ -1,9 +1,12 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
 :root {
 	font-size: 16px;
 }
 
 body {
 	background: url(/images/bg-intro-mobile.png);
+	font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (min-width: 1440px) {
