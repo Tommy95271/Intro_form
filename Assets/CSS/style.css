@@ -17,14 +17,13 @@ body {
 		grid-auto-rows: repeat(2, 1fr);
 		grid-template-areas: "header section" "header main";
 	}
-}
-
-header {
-	grid-area: header;
-}
-section {
-	grid-area: section;
-}
-main {
-	grid-area: main;
+	header {
+		grid-area: header;
+	}
+	section {
+		grid-area: section;
+	}
+	main {
+		grid-area: main;
+	}
 }
