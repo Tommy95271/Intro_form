@@ -69,10 +69,10 @@ input {
 	padding: 1rem;
 	border-radius: 0.5rem;
 	font-weight: 700;
+	box-sizing: border-box;
 }
 
 input.info {
-	box-sizing: border-box;
 	border: 1px solid var(--Grayish-Blue);
 }
 
