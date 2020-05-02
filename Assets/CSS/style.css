@@ -67,12 +67,12 @@ input {
 	outline: none;
 	margin: 0.5em 0;
 	padding: 1rem;
+	border-radius: 0.5rem;
 }
 
 input.info {
 	box-sizing: border-box;
 	border: 1px solid var(--Grayish-Blue);
-	border-radius: 0.5rem;
 	font-weight: 700;
 }
 
@@ -82,7 +82,6 @@ input[type="submit"] {
 	background: var(--Green);
 	font-weight: 700;
 	border: none;
-	border-radius: 0.5rem;
 	box-shadow: 0 5px rgba(17, 126, 54, 0.5);
 }
 
