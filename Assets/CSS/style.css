@@ -122,11 +122,8 @@ p#terms a {
 		text-align: left;
 	}
 
-	header div#titleBox {
-		padding-left: 2rem;
-	}
-
 	header h2#title {
+		padding-left: 2rem;
 		font-size: 2rem;
 	}
 
