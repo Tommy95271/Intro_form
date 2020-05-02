@@ -61,6 +61,10 @@ main {
 	box-shadow: 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.info {
+	width: 100%;
+}
+
 @media screen and (min-width: 1440px) {
 	#wrapper {
 		display: grid;
