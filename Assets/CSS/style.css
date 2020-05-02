@@ -42,6 +42,7 @@ section {
 	margin: 0.5rem;
 	padding: 1rem 4rem;
 	color: white;
+	text-align: center;
 }
 
 @media screen and (min-width: 1440px) {
