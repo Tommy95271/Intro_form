@@ -90,6 +90,11 @@ input[type="submit"] {
 	color: var(--Grayish-Blue);
 }
 
+#terms span {
+	color: var(--Red);
+	font-weight: 800;
+}
+
 @media screen and (min-width: 1440px) {
 	#wrapper {
 		display: grid;
