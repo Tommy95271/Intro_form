@@ -23,7 +23,12 @@ header {
 	color: white;
 	display: flex;
 	flex-flow: column nowrap;
+	align-items: center;
 	text-align: center;
+}
+
+header h2 {
+	width: 80%;
 }
 
 @media screen and (min-width: 1440px) {
