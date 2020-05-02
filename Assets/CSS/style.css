@@ -87,6 +87,7 @@ input[type="submit"] {
 	padding: 0 1rem;
 	line-height: 1.5rem;
 	text-align: center;
+	color: var(--Grayish-Blue);
 }
 
 @media screen and (min-width: 1440px) {
