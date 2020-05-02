@@ -62,7 +62,7 @@ main {
 	box-shadow: 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.info {
+input.info {
 	box-sizing: border-box;
 	width: 100%;
 	margin: 1rem 0;
@@ -84,7 +84,7 @@ input[type="submit"] {
 	box-shadow: 0 5px rgba(17, 126, 54, 0.5);
 }
 
-#terms {
+p#terms {
 	font-size: 0.5rem;
 	margin: 1rem 1rem 0;
 	padding: 0 1rem;
@@ -93,7 +93,7 @@ input[type="submit"] {
 	color: var(--Grayish-Blue);
 }
 
-#terms span {
+p#terms span {
 	color: var(--Red);
 	font-weight: 800;
 }
