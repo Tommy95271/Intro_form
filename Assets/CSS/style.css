@@ -118,7 +118,8 @@ p#terms a {
 		text-align: left;
 	}
 
-	header h2 {
+	header h2#title {
+		font-size: 2rem;
 	}
 
 	header p {
