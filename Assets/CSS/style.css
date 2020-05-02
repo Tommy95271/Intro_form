@@ -40,6 +40,7 @@ header p {
 section {
 	background: var(--Blue);
 	margin: 0.5rem;
+	padding: 1rem 4rem;
 }
 
 @media screen and (min-width: 1440px) {
