@@ -63,22 +63,20 @@ main {
 }
 
 input {
+	width: 100%;
 	outline: none;
 	margin: 0.5em 0;
+	padding: 1rem;
 }
 
 input.info {
 	box-sizing: border-box;
-	width: 100%;
-	padding: 1rem;
 	border: 1px solid var(--Grayish-Blue);
 	border-radius: 0.5rem;
 	font-weight: 700;
 }
 
 input[type="submit"] {
-	width: 100%;
-	padding: 1rem;
 	text-transform: uppercase;
 	color: white;
 	background: var(--Green);
