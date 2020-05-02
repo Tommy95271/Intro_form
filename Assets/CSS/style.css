@@ -67,6 +67,7 @@ main {
 	margin: 1rem 0;
 	padding: 1rem;
 	border: 1px solid var(--Grayish-Blue);
+	border-radius: 0.5rem;
 }
 
 @media screen and (min-width: 1440px) {
