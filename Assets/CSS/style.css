@@ -62,7 +62,9 @@ main {
 }
 
 .info {
+	box-sizing: border-box;
 	width: 100%;
+	margin: ;
 }
 
 @media screen and (min-width: 1440px) {
