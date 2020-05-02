@@ -103,10 +103,10 @@ p#terms a {
 	#wrapper {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		grid-auto-rows: repeat(3, 1fr);
-		grid-template-areas: ". section" "header main" "header main";
+		grid-auto-rows: 10% 1fr 1fr;
+		grid-template-areas: "header section" "header main";
 		align-items: center;
-		height: 100%;
+		margin: 10%;
 	}
 	header {
 		grid-area: header;
