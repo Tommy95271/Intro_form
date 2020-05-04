@@ -1,7 +1,6 @@
 // There are many ways to pick a DOM node; here we get the form itself and the input
 // input box, as well as the span element into which we will place the error message.
 const form = document.getElementsByTagName('form')[0];
-
 const inputs = document.querySelectorAll('input:not([type="submit"])');
 arrayInputs = Array.from(inputs).reverse();
 // const error = document.querySelector('span.error');
@@ -9,6 +8,7 @@ const errorMssg = document.createElement('span');
 console.log(errorMssg);
 
 arrayInputs.forEach((input) => {
+	console.log(input);
 	input.addEventListener('input', function(event) {
 		if (input.validity.valid) {
 			errorMssg.innerHTML = '';
