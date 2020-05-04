@@ -20,6 +20,10 @@ arrayInputs.forEach((input) => {
 		}
 	});
 
+	input.addEventListener('mouseover', function(e) {
+		console.log(input);
+	});
+
 	form.addEventListener('submit', function(event) {
 		if (!input.validity.valid) {
 			showError();
