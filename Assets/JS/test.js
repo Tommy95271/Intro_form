@@ -32,8 +32,8 @@ arrayInputs.forEach((input) => {
 		} else if (input.validity.typeMismatch) {
 			errorMssg.textContent = `Looks like this is not an ${input.placeholder}.`;
 		} else if (input.validity.tooShort) {
-			errorMssg.textContent = `${input.placeholder} should be at least ${input.placeholder
-				.minLength} characters; you entered ${input.value.length}.`;
+			errorMssg.textContent = `${input.placeholder} should be at least ${input.minLength} characters; you entered ${input
+				.value.length}.`;
 		}
 		errorMssg.className = 'error active';
 	}
