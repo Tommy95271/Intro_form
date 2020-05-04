@@ -103,6 +103,11 @@ input[type="submit"]:active {
 	top: 1px;
 }
 
+.hoverSpan {
+	display: block;
+	background: #900;
+}
+
 /* This is the style of our error messages */
 .error {
 	width: 100%;
