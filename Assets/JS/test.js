@@ -36,16 +36,16 @@ inputs.forEach((input) => {
 		if (input.validity.valueMissing) {
 			// If the field is empty
 			// display the following error message.
-			error.textContent = `${this.id} cannot to empty.`;
+			error.textContent = `${input.placeholder} cannot to empty.`;
 		} else if (input.validity.typeMismatch) {
 			// If the field doesn't contain an input address
 			// display the following error message.
-			error.textContent = `Looks like this is not an ${this}.`;
+			error.textContent = `Looks like this is not an ${input.placeholder}.`;
 		} else if (input.validity.tooShort) {
 			// If the data is too short
 			// display the following error message.
-			error.textContent = `${this} should be at least ${this.minLength} characters; you entered ${this.value
-				.length}.`;
+			error.textContent = `${input.placeholder} should be at least ${input.placeholder
+				.minLength} characters; you entered ${input.value.length}.`;
 		}
 
 		// Set the styling appropriately
