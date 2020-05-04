@@ -3,7 +3,8 @@
 const form = document.getElementsByTagName('form')[0];
 
 const inputs = document.querySelectorAll('input:not([type="submit"])');
-const error = document.querySelector('span.error');
+// const error = document.querySelector('span.error');
+const errors = document.createElement('span');
 
 inputs.forEach((input) => {
 	input.addEventListener('input', function(event) {
