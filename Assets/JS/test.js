@@ -9,7 +9,7 @@ console.log(errorMssg);
 
 inputs.forEach((input) => {
 	input.addEventListener('input', function(event) {
-		input.appendChild(errorMssg);
+		input.append(errorMssg);
 		if (input.validity.valid) {
 			errorMssg.innerHTML = '';
 			errorMssg.className = 'error';
