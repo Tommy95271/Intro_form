@@ -114,8 +114,9 @@ input[type="submit"]:active {
 	white-space: nowrap;
 	box-shadow: 1px 1px 3px #222222;
 	opacity: 0.5;
-	border: 1px solid #111111;
-	z-index: 99999;
+	border: 0 solid #111111;
+	border-radius: 4px;
+	z-index: 100;
 }
 
 /* This is the style of our error messages */
