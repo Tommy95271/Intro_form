@@ -5,11 +5,11 @@ const form = document.getElementsByTagName('form')[0];
 const inputs = document.querySelectorAll('input:not([type="submit"])');
 // const error = document.querySelector('span.error');
 const errorMssg = document.createElement('span');
-errorMssg.classList.add('error');
 console.log(errorMssg);
 
 inputs.forEach((input) => {
 	input.addEventListener('input', function(event) {
+		input.appendChild(errorMssg);
 		if (input.validity.valid) {
 			errorMssg.innerHTML = '';
 			errorMssg.className = 'error';
@@ -26,7 +26,6 @@ inputs.forEach((input) => {
 	});
 
 	function showError() {
-		input.appendChild(errorMssg);
 		if (input.validity.valueMissing) {
 			errorMssg.textContent = `${input.placeholder} cannot to empty.`;
 		} else if (input.validity.typeMismatch) {
