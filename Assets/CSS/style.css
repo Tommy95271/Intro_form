@@ -108,7 +108,7 @@ input[type="submit"]:active {
 	padding: 5px 20px 5px 5px;
 	display: block;
 	z-index: 100;
-	background: url(../images/status-info.png) #f0f0f0 no-repeat 100% 5%;
+	background: #f0f0f0 no-repeat 100% 5%;
 	left: 0px;
 	margin: 10px;
 	width: 250px;
