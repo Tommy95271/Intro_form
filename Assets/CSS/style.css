@@ -110,7 +110,7 @@ input[type="submit"]:active {
 	font-size: 150%;
 	position: absolute;
 	padding: 1px 5px 2px 5px;
-	left: 25%;
+	left: 40%;
 	white-space: nowrap;
 	box-shadow: 1px 1px 3px #222222;
 	opacity: 0.5;
