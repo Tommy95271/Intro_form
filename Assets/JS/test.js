@@ -3,11 +3,12 @@
 const form = document.getElementsByTagName('form')[0];
 
 const inputs = document.querySelectorAll('input:not([type="submit"])');
+arrayInputs = Array.from(inputs).reverse();
 // const error = document.querySelector('span.error');
 const errorMssg = document.createElement('span');
 console.log(errorMssg);
 
-inputs.forEach((input) => {
+arrayInputs.forEach((input) => {
 	input.addEventListener('input', function(event) {
 		if (input.validity.valid) {
 			errorMssg.innerHTML = '';
@@ -21,7 +22,6 @@ inputs.forEach((input) => {
 		if (!input.validity.valid) {
 			showError();
 			event.preventDefault();
-			event.stopPropagation();
 		}
 	});
 
