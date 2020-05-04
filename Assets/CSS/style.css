@@ -200,4 +200,8 @@ p#terms a:active {
 		position: relative;
 		left: 5rem;
 	}
+
+	.hoverSpan {
+		left: 25%;
+	}
 }
