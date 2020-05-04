@@ -22,6 +22,7 @@ arrayInputs.forEach((input) => {
 	input.addEventListener('mouseover', (e) => {
 		input.after(hoverSpan);
 		hoverSpan.classList.add('hoverSpan');
+		hoverSpan.textContent = input.placeholder;
 	});
 
 	input.addEventListener('mouseout', (e) => {
