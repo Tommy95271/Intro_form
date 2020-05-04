@@ -6,6 +6,7 @@ arrayInputs = Array.from(inputs).reverse();
 // const error = document.querySelector('span.error');
 const errorMssg = document.createElement('span');
 const hoverSpan = document.createElement('span');
+hoverSpan.classList.add();
 console.log(errorMssg);
 
 arrayInputs.forEach((input) => {
