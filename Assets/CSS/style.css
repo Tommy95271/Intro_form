@@ -104,16 +104,18 @@ input[type="submit"]:active {
 }
 
 .hoverSpan {
-	border: #c0c0c0 1px dotted;
-	padding: 5px 20px 5px 5px;
 	display: block;
-	z-index: 100;
-	background: #f0f0f0 no-repeat 100% 5%;
-	left: 0px;
-	margin: 10px;
-	width: 250px;
+	background-color: #00ff00;
+	color: #111;
+	font-size: 150%;
 	position: absolute;
-	text-decoration: none;
+	padding: 1px 5px 2px 5px;
+	left: 50%;
+	white-space: nowrap;
+	box-shadow: 1px 1px 3px #222222;
+	opacity: 0.5;
+	border: 1px solid #111111;
+	z-index: 99999;
 }
 
 /* This is the style of our error messages */
