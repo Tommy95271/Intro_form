@@ -97,15 +97,6 @@ input[type="submit"] {
 	box-shadow: 0 5px rgba(17, 126, 54, 0.5);
 }
 
-input:invalid {
-	border-color: #900;
-	background-color: #fdd;
-}
-
-input:focus:invalid {
-	outline: none;
-}
-
 /* This is the style of our error messages */
 .error {
 	width: 100%;
