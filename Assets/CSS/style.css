@@ -97,6 +97,12 @@ input[type="submit"] {
 	box-shadow: 0 5px rgba(17, 126, 54, 0.5);
 }
 
+input[type="submit"]:active {
+	position: relative;
+	left: 1px;
+	top: 1px;
+}
+
 /* This is the style of our error messages */
 .error {
 	width: 100%;
