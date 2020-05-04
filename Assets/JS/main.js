@@ -35,11 +35,11 @@ function showError() {
 	if (email.validity.valueMissing) {
 		// If the field is empty
 		// display the following error message.
-		emailError.textContent = 'You need to enter an e-mail address.';
+		emailError.textContent = 'Email cannot to empty.';
 	} else if (email.validity.typeMismatch) {
 		// If the field doesn't contain an email address
 		// display the following error message.
-		emailError.textContent = 'Entered value needs to be an e-mail address.';
+		emailError.textContent = 'Looks like this is not an email.';
 	} else if (email.validity.tooShort) {
 		// If the data is too short
 		// display the following error message.
