@@ -133,6 +133,11 @@ p#terms a {
 	text-decoration: none;
 }
 
+p#terms a:active {
+	border: 1px solid rgb(252, 225, 72);
+	border-radius: 5px;
+}
+
 @media screen and (min-width: 1440px) {
 	body {
 		height: 500px;
