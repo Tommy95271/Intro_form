@@ -10,7 +10,7 @@ hoverSpan.classList.add('hoverSpan');
 console.log(errorMssg);
 
 arrayInputs.forEach((input) => {
-	console.log(input);
+	console.log(input.name);
 	input.addEventListener('input', function(event) {
 		if (input.validity.valid) {
 			errorMssg.innerHTML = '';
@@ -18,10 +18,6 @@ arrayInputs.forEach((input) => {
 		} else {
 			showError();
 		}
-	});
-
-	input.addEventListener('mouseover', function(e) {
-		console.log(input);
 	});
 
 	form.addEventListener('submit', function(event) {
