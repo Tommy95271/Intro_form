@@ -23,14 +23,22 @@
     </section>
     <main class="box">
       <form action="#" method="POST" novalidate>
-        <input class="info"  type="text" name="firstname" title="First Name" placeholder="First Name" required>
-        <input class="info" type="text" name="lastname" title="Last Name" placeholder="Last Name" required>
-
+        <label for="firstname">
+          <input class="info" id="firstname" type="text" name="firstname" title="First Name" placeholder="First Name" required>
+          <span class="error" aria-live="polite"></span>
+        </label>
+        <label for="lastname">
+         <input class="info" id="lastname" type="text" name="lastname" title="Last Name" placeholder="Last Name" required>
+          <span class="error" aria-live="polite"></span>
+        </label>
         <label for="email">
           <input class="info" id="email" type="email" name="email" title="Email Address" placeholder="Email Address" required minlength="8">
           <span class="error" aria-live="polite"></span>
         </label>
-        <input class="info" type="password" name="password" title="Password" placeholder="Password" required>
+        <label for="password">
+        <input class="info" id="password" type="password" name="password" title="Password" placeholder="Password" required>
+          <span class="error" aria-live="polite"></span>
+        </label>
         <input type="submit" value="Claim your free trial">
       </form>
       <p id="terms">By clicking the button, you are agreeing to our <a href="javascript:void(0)">Terms and Services</a></p>
