@@ -25,7 +25,11 @@
       <form action="#" method="POST" novalidate>
         <input class="info"  type="text" name="firstname" title="First Name" placeholder="First Name" required>
         <input class="info" type="text" name="lastname" title="Last Name" placeholder="Last Name" required>
-        <input class="info"id="email" type="email" name="email" title="Email Address" placeholder="Email Address" required>
+
+        <label for="email">
+          <input class="info" id="email" type="email" name="email" title="Email Address" placeholder="Email Address" required>
+          <span class="error" aria-live="polite"></span>
+        </label>
         <input class="info" type="password" name="password" title="Password" placeholder="Password" required>
         <input type="submit" value="Claim your free trial">
       </form>
