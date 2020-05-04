@@ -110,7 +110,7 @@ input[type="submit"]:active {
 	font-size: 80%;
 	color: white;
 	background-color: #900;
-	border-radius: 0 0 5px 5px;
+	border-radius: 5px;
 	box-sizing: border-box;
 }
 
