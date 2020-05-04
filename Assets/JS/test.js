@@ -6,7 +6,6 @@ arrayInputs = Array.from(inputs).reverse();
 // const error = document.querySelector('span.error');
 const errorMssg = document.createElement('span');
 const hoverSpan = document.createElement('span');
-hoverSpan.classList.add();
 console.log(errorMssg);
 
 arrayInputs.forEach((input) => {
@@ -22,6 +21,7 @@ arrayInputs.forEach((input) => {
 
 	input.addEventListener('mouseover', (e) => {
 		input.after(hoverSpan);
+		hoverSpan.classList.add('hoverSpan');
 	});
 
 	form.addEventListener('submit', function(event) {
