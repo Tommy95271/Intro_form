@@ -24,6 +24,10 @@ arrayInputs.forEach((input) => {
 		hoverSpan.classList.add('hoverSpan');
 	});
 
+	input.addEventListener('mouseout', (e) => {
+		document.querySelector('.hoverSpan').remove();
+	});
+
 	form.addEventListener('submit', function(event) {
 		if (!input.validity.valid) {
 			showError();
