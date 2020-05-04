@@ -9,7 +9,6 @@ console.log(errorMssg);
 
 inputs.forEach((input) => {
 	input.addEventListener('input', function(event) {
-		input.after(errorMssg);
 		if (input.validity.valid) {
 			errorMssg.innerHTML = '';
 			errorMssg.className = 'error';
@@ -26,6 +25,7 @@ inputs.forEach((input) => {
 	});
 
 	function showError() {
+		input.after(errorMssg);
 		if (input.validity.valueMissing) {
 			errorMssg.textContent = `${input.placeholder} cannot to empty.`;
 		} else if (input.validity.typeMismatch) {
