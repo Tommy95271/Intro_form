@@ -21,6 +21,7 @@ inputs.forEach((input) => {
 		if (!input.validity.valid) {
 			showError();
 			event.preventDefault();
+			event.stopPropagation();
 		}
 	});
 
